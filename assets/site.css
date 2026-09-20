@@ -15,3 +15,13 @@ h2 { font-size: 1.18rem; line-height: 1.5; margin: 0 0 12px; }
 p { margin: 12px 0; }
 footer { border-top: 1px solid #d5ddd6; padding-top: 20px; margin-top: 42px; color: #52605a; font-size: .88rem; }
 @media (max-width: 480px) { main { padding: 24px 20px 44px; } nav { gap: 18px; margin-bottom: 32px; } }
+
+h1 { overflow-wrap: anywhere; }
+dt { font-weight: 700; margin-top: 1.25rem; }
+dd { margin: .4rem 0 1rem; }
+li { margin-bottom: .8rem; }
+code { overflow-wrap: anywhere; }
+.app-list { display: grid; gap: 20px; }
+.app-card { margin: 0; padding: 24px; border: 1px solid #d5ddd6; border-radius: 12px; background: #fff; }
+.app-card h2 { font-size: 1.35rem; overflow-wrap: anywhere; }
+.app-links { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 20px; }

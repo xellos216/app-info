@@ -3,35 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="개인 Google Drive 파일 동기화에 사용하는 rclone OAuth 앱 안내입니다.">
-  <title>rclone · 개인용 Google Drive 동기화</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="xellos216이 운영하는 개인용 앱의 기능, 개인정보처리방침 및 이용약관 안내입니다.">
+  <title>개인용 앱 안내</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="canonical" href="https://xellos216.github.io/app-info/">
 </head>
 <body>
   <main>
-    <nav aria-label="페이지 탐색"><a href="./" aria-current="page">앱 소개</a><a href="privacy.html">개인정보처리방침</a></nav>
-    <p class="eyebrow">개인용 앱 안내</p>
-    <h1>rclone</h1>
-    <p class="lead">개인 컴퓨터와 Google Drive 사이의 파일 동기화를 위한 OAuth 앱입니다.</p>
-    <section>
-      <h2>용도와 운영자</h2>
-      <p>이 앱은 <a href="https://github.com/xellos216">xellos216</a>이 자신의 Google 계정과 개인 컴퓨터에서 사용하기 위해 등록했습니다. 다른 사용자를 모집하거나 서비스를 제공하기 위한 앱이 아닙니다.</p>
-      <p>실제 파일 작업에는 오픈 소스 명령줄 도구인 <a href="https://rclone.org/">rclone</a>을 사용합니다. 이 페이지는 개인이 등록한 OAuth 앱의 안내이며, rclone 프로젝트나 Google이 운영하는 공식 사이트가 아닙니다.</p>
-    </section>
-    <section>
-      <h2>앱이 하는 일</h2>
-      <p>운영자가 정한 로컬 폴더의 파일을 자신의 Google Drive 대상 폴더에 동기화합니다. 파일 목록과 메타데이터를 조회하고, 파일을 업로드·갱신하며, 동기화 결과를 대조합니다.</p>
-      <p>미러 동기화는 로컬 상태를 기준으로 원격 파일을 덮어쓰거나 삭제할 수 있습니다. 현재 연동은 Google Drive의 넓은 파일 접근 권한을 요청하므로, OAuth 권한 자체가 특정 폴더로 제한되는 것은 아닙니다. 실제 작업 대상은 로컬 설정에서 지정합니다.</p>
-    </section>
-    <section>
-      <h2>데이터와 접근 권한</h2>
-      <p>로그인과 접근 동의는 Google의 인증 화면에서 진행합니다. 이 안내 사이트는 Google 로그인이나 파일 업로드 기능을 제공하지 않으며, 인증 토큰이나 동기화 파일을 받지 않습니다.</p>
-      <p>데이터 처리와 권한 철회에 관한 자세한 내용은 <a href="privacy.html">개인정보처리방침</a>에서 확인할 수 있습니다.</p>
-    </section>
+    <nav aria-label="페이지 탐색"><a href="./" aria-current="page">앱 목록</a></nav>
+    <p class="eyebrow">xellos216 · 앱 안내</p>
+    <h1>개인용 앱 안내</h1>
+    <p class="lead">앱별 기능과 데이터 처리 방식을 확인할 수 있습니다.</p>
+    <div class="app-list">
+      <section class="app-card" aria-labelledby="rclone-heading">
+        <p class="eyebrow">Google Drive 파일 동기화</p>
+        <h2 id="rclone-heading"><a href="rclone/">rclone</a></h2>
+        <p>개인 컴퓨터의 지정 폴더와 Google Drive를 동기화하기 위해 등록한 개인용 OAuth 앱입니다.</p>
+        <div class="app-links"><a href="rclone/">앱 소개</a><a href="rclone/privacy.html">개인정보처리방침</a></div>
+      </section>
+      <section class="app-card" aria-labelledby="publishing-heading">
+        <p class="eyebrow">YouTube 영상 게시</p>
+        <h2 id="publishing-heading"><a href="creator-publishing-desk/">Creator-Publishing-Desk</a></h2>
+        <p>자신이 관리하는 채널에 영상·자막·썸네일을 전달하고 결과를 확인하는 개인용 로컬 도구입니다.</p>
+        <div class="app-links"><a href="creator-publishing-desk/">앱 소개</a><a href="creator-publishing-desk/privacy.html">개인정보처리방침</a><a href="creator-publishing-desk/terms.html">이용약관</a></div>
+      </section>
+    </div>
     <footer>
-      <p>문의: <a href="https://github.com/xellos216/rclone-oauth-info/issues">운영자의 GitHub 문의 창구</a>. 공개 문의에는 파일 내용이나 인증 정보를 올리지 마세요.</p>
-      <p>최종 갱신: 2026-09-20</p>
+      <p>운영자: <a href="https://github.com/xellos216">xellos216</a> · <a href="https://github.com/xellos216/app-info/issues">GitHub 문의</a></p>
+      <p>이 사이트는 앱 안내 문서만 제공합니다. 계정 연결과 실제 파일 작업은 각 앱에서 진행합니다.</p>
     </footer>
   </main>
 </body>
