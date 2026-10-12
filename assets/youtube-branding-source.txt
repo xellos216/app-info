@@ -1,0 +1,5 @@
+Official unmodified Developed with YouTube asset
+Downloaded 2026-10-12
+https://developers.google.com/static/youtube/images/developed-with-youtube-sentence-case-dark.png
+Usage guidelines: https://developers.google.com/youtube/terms/branding-guidelines
+Used only next to the YouTube API permissions section, linked to YouTube.
